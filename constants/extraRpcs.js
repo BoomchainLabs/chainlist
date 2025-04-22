@@ -7881,6 +7881,13 @@ export const extraRpcs = {
   295: {
     rpcs: ["https://hedera.linkpool.pro"],
   }
+
+  module.exports = {
+    ...
+    "binance": [
+        "https://virtual.binance.rpc.tenderly.co/add95b93-f1d4-4d71-a63d-0e89712c101d"
+    ],
+    ...
 };
 
 const allExtraRpcs = mergeDeep(llamaNodesRpcs, extraRpcs);
